@@ -1,0 +1,7 @@
+1- fork the repo into my remote repo
+mkdir pullRequestFork
+cd pullRequestFork
+git clone git@github.com:nouranhamdy/pullRequst.git
+git branch nouran
+git checkout nouran
+
