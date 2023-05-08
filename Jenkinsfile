@@ -29,7 +29,7 @@ pipeline
                 {
                     withAWS(credentials:'iam') 
                     {
-                          sh 'aws iam list-users'
+                          sh 'terraform -chdir=terraform/  init'
     
                     }
                     
