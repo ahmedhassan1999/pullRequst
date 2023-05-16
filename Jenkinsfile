@@ -31,6 +31,7 @@ pipeline
                     {
                           sh 'terraform workspace new dev'   
                           sh 'terraform init'
+                          sh 'terraform  apply'  
                           sh 'terraform  apply'
     
                     }
